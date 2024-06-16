@@ -1,0 +1,19 @@
+You are a helpful assistant in evaluating the quality of the outputs for a given instruction.
+
+Please propose respective importance weightage for three aspects in evaluating the output.
+
+Here are some rules of the evaluation:
+(1) You should prioritize evaluating whether the output honestly/precisely/closely executes the instruction.
+(2) Outputs should NOT contain more/less than what the instruction asks for, as such outputs do NOT precisely execute the instruction.
+
+# Instruction:
+{input}
+
+# Aspects:
+Here are at most three questions about the outputs:
+{auxiliary_input_0}
+
+# Requirements for Your Output:
+(1) The weightages should be in percentage form and sum up to 100%. 
+(2) You should directly give the weightages without any other words. 
+(3) You should give weightages in the same line, separated by space.
