@@ -8,6 +8,26 @@ The acceleration of Large Language Models (LLMs) research has opened up new poss
 ## Usage
 This section explains how you can apply Decompose and Aggregate framework for using LLM-as-a-judge in an effective and interpretable way.
 
+## Usage
+This section explains how you can apply Decompose and Aggregate framework for using LLM-as-a-judge in an effective and interpretable way.
+
+1. Inference:\
+-Execute **`inference_gpt.py`**, **`inference_llama.py`**, and **`inference_mistral.py`** depending on the model to be used\
+
+2. Prompt:\
+-Direct prompting: use template **`Score.txt`**\
+-CoT prompting: use template **`CoT.txt`**\
+-Aspect generation: use template **`MetricsGen.txt`**\
+-Aspect-wise scoring: use template **`EvalbyMetric.txt`**\
+-Weighting generation: use template **`WGen.txt`**
+
+3. Aggregate using calculating module:\
+-Execute **`calculate.py`** to get the overall score
+
+4. Evaluate :\
+-Execute **`evaluate.py`** to compute agreement with human labels
+
+5. Weighting Evaluation
 
 ## Citation and Contact
 If you find this repository helpful, please cite our paper.
