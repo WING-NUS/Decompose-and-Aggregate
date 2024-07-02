@@ -1,0 +1,144 @@
+text,aspect1,aspect2,aspect3,ann1,ann2,mistral_w1,mistral_w2,mistral_w3
+Create an analogy to describe an AI assistant.," 1. Does the analogy accurately and effectively compare an AI assistant to something else, making the characteristics and functions of an AI assistant clear?","2. Is the analogy appropriate, using relatable and understandable concepts or objects to illustrate an AI assistant's capabilities and role?","3. Is the analogy comprehensive, covering different aspects and functions of an AI assistant in a coherent and logical way?","['40%', '30%', '30%']","['40%', '30%', '30%']",50%,30%,20%
+Paraphrase this statement in your own words. AI is playing an increasingly important role in our society., 1. Does the paraphrased statement accurately convey the role of AI in society as indicated in the original instruction?,2. How closely does the paraphrased statement match the original statement in meaning and tone?,3. Is the paraphrased statement grammatically correct and free of errors?,"['40%', '40%', '20%']","['40%', '40%', '20%']",50%,30%,20%
+"I am a Ph.D. in Meteorology so I am very familiar with the basic topics in Meteorology and/or the relevant subjects. I am writing some material about the water cycle for a 5-year-old. Can you help me with writing the material? Make sure your points are accurate and precise, and mention the key points.", 1. Does the material accurately describe the stages of the water cycle using simple language appropriate for a 5-year-old?,2. Are the meteorological terms mentioned clearly defined or explained for a 5-year-old audience throughout the material?,"3. Does the material cover the basic concepts of the water cycle (evaporation, condensation, precipitation, and collection)?","['40%', '30%', '30%']","['40%', '30%', '30%']",35%,35%,30%
+Re-phrase this statement to make it sound more friendly and inviting. You should abide by the regulations of this lab., 1. How can we make the regulations of this lab sound more welcoming and cooperative in our statement?,2. What words or phrases could we use to encourage compliance with the lab regulations without sounding stern?,"3. How can we re-phrase ""You should abide by the regulations of this lab"" to make it more inviting and encouraging?","['40', '30', '30']","['40%', '30%', '30%']",50%,30%,20%
+Write a sentence explaining how eating healthy benefits the human body?, 1. Does the sentence accurately convey how eating healthy improves various bodily functions?,2. Is the sentence grammatically correct and coherent while explaining the relationship between healthy eating and human body benefits?,3. Does the sentence provide a clear and concise explanation without including irrelevant or unrelated information?,"['40%', '40%', '20%']","['40%', '40%', '20%']",45%,35%,20%
+Explain why writing clear user instructions is important., 1. In what ways does the clarity of user instructions ensure effective communication between the writer and the user?,2. How does the precision of user instructions help prevent misunderstandings or errors during task completion?,3. What is the significance of closely following the instructions in terms of maintaining user satisfaction and task accomplishment?,"['40%', '30%', '30%']","['40%', '30%', '30%']",50%,30%,20%
+what is brand?, 1. Does the output accurately define what a brand is?,2. Is the explanation of a brand's components included in the output?,3. Does the output provide an example to clarify the concept of a brand?,"['50%', '30%', '20%']","['50', '30', '20']",50%,30%,20%
+"What does ""they"" refer to in each of the following two sentences: 
+a) ""The authorities have denied authorization to the demonstrators because they feared violence.""
+b) ""The authorities have denied authorization to the demonstrators because they appeared belligerent."""," 1. Who does ""they"" refer to in each sentence regarding the demonstrators and the authorities?","2. In what context does ""they"" fear or appear in each sentence to determine the reason for the authorities' denial of authorization?","3. How does the reason for ""they"" fearing or appearing in each sentence influence the outcome of the situation for the demonstrators?","['40%', '30%', '30%']","['40', '40', '20']",50%,30%,20%
+Find the 3rd prime number, 1. What is the third prime number specified in the instruction?,2. Does the output provide the third prime number as per the instruction?,3. Does the output contain any additional information or numbers apart from the third prime number?,"['30%', '40%', '30%']","['30%', '40$', '30%']",50%,40%,10%
+Should i watch Battle For The Dream Island?," 1. Does the output provide an accurate recommendation regarding watching ""Battle For The Dream Island""?",2. Does the output include reasoning or justification for the recommendation?,"3. Is the recommendation based on the specific context of the instruction (i.e., the question)?","['40%', '40%', '20%']","['40%', '30%', '30%']",60%,30%,10%
+generate a list of ten interesting things about a cat. The priority is to make sure these things are all factually correct., 1. What are ten distinct physical features of a cat?,2. What are ten notable behaviors or habits of cats?,3. What are ten interesting facts about a cat's anatomy or physiology?,"['30%', '40%', '30%']","['20%', '50%', '30%']",50%,30%,20%
+What question could be most likely to encourage rich discussion in a college classroom?, 1. What are the underlying assumptions and implications of the concepts presented in the instruction?,2. How do the various perspectives discussed in the instruction interrelate and contradict each other?,3. Can you provide examples or counterexamples from current events or historical contexts to deepen the understanding of the concepts in the instruction?,"['30%', '40%', '30%']","['30%', '40%', '30%']",40%,30%,30%
+Is it possible to revive Classical Latin as a language of ordinary speech?, 1. Does the output discuss the feasibility of Classical Latin becoming an ordinary spoken language?,2. How does the output support or refute the instruction with facts or evidence?,"3. Does the output explore the cultural, social, or practical implications of reviving Classical Latin as a spoken language?","['30%', '40%', '30%']","['40%', '30%', '30%']",50%,30%,20%
+Provide 5 ways to increase your productivity., 1. What are five concrete actions that can be taken to enhance productivity based on the instruction?,2. In what ways does each of the five methods directly address the instruction to improve productivity?,3. How can implementing these five methods be expected to measurably increase productivity?,"['60%', '20%', '20%']","['40%', '30%', '30%']",40%,35%,25%
+What are the risks when you do not carry out Ankle arm index before compression therapy?, 1. What are the specific risks of not performing an Ankle arm index measurement before compression therapy?,2. How does not measuring Ankle arm index prior to compression therapy affect the therapy's effectiveness or safety?,3. What potential complications can arise from not checking the Ankle arm index before starting compression therapy?,"['40%', '40%', '20%']","['40%', '30%', '30%']",45%,50%,5%
+"Create an algorithm to identify the most cost effective location to produce a product. A company is considering 3 cities to produce a product. The expected production cost in each city is $100, $200 and $300 respectively.", 1. Which city has the lowest production cost?,2. In what city would the company spend the least amount of money to produce the product?,"3. Based on the given production cost in each city, which location is the most cost effective to produce the product?","['40%', '30%', '30%']","['30%', '30%', '40%']",60%,30%,10%
+"Paraphrase the following statement in a different way, but keep its meaning. It's imperative that we finish the project by the deadline.", 1. How does the paraphrased statement convey the significance of completing the project by the deadline?,2. Does the paraphrased statement maintain the original statement's sense of urgency and importance regarding the project's completion by the deadline?,3. Is the meaning of the instruction to paraphrase the statement while preserving the importance of completing the project by the deadline clear in the output?,"['40%', '40%', '20%']","['30%', '40%', '30%']",50%,30%,20%
+"Find and cite the metaphor used in the passage: Life is like a roller coaster, it has its ups and downs, and you never know what lies ahead."," 1. Does the output correctly identify and cite the metaphor used in the passage: ""Life is like a roller coaster""?",2. Is the given source cited for the metaphor in the output?,3. Are there any additional or unnecessary elements included in the output beyond the metaphor and its source?,"['45', '35', '20']","['50%', '30%', '20%']",40%,30%,30%
+Give three tips for staying healthy., 1. What are three effective ways to maintain physical health according to the instruction?,2. How does the instruction suggest promoting good mental health with three tips?,3. In what ways does the instruction recommend ensuring a balanced diet and regular exercise for three tips of staying healthy?,"['50%', '20%', '30%']","['50%', '30%', '20%']",40%,35%,25%
+Name two animal species that live in the ocean., 1. What are the names of two animal species that reside in the ocean?,2. Which two animal species can be found living in the oceanic environment?,3. Can you identify the names of two ocean-dwelling animal species?,"['30%', '30%', '40%']","['40%', '30%', '30%']",60%,30%,10%
+How can I learn to optimize my webpage for search engines?, 1. What specific SEO techniques should I use to optimize my webpage for search engines?,2. How can I effectively implement keyword optimization on my webpage?,3. What steps should I take to improve my webpage's on-page SEO and meta tags?,"['40%', '30%', '30%']","['35%', '30%', '35%']",50%,30%,20%
+what do you know about the different lengths of ring fingers bigger index finger?, 1. What is the typical difference in length between a person's ring finger and index finger?,2. In what ways does the ratio of ring finger length to index finger length differ between genders or ethnicities?,3. What research or studies have been conducted on the significance and potential causes of variations in the lengths of ring fingers versus index fingers?,"['40%', '30%', '30%']","['30', '40', '20']",40%,40%,20%
+Give an example of a metaphor that uses the following object Stars, 1. Does the metaphor effectively use the stars as its central imagery?,2. Is the metaphor grammatically correct and coherent?,3. Does the metaphor create a vivid and understandable image using stars as its central theme?,"['40%', '30%', '30%']","['30%', '30%', '40%']",45%,35%,20%
+"Given a sequence of numbers, calculate the average 1, 2, 3, 4, 5", 1. What is the sum of the given sequence of numbers and then divided by the length of the sequence to get the average?,"2. Does the output provide the exact average of the sequence 1, 2, 3, 4, 5?","3. Is the answer rounded to the correct number of decimal places, if specified in the instruction?","['35', '40', '35']","['40%', '40%', '20%']",40%,60%,0%
+Create a multiple choice quiz based on the topic of Space Exploration," 1. Which country first sent a human to the moon?
+a) China
+b) United States
+c) Russia","2. Which telescope is used to study the universe in various wavelengths?
+a) Hubble Space Telescope
+b) James Webb Space Telescope (JWST)","3. In which year did Neil Armstrong first walk on the moon?
+a) 1961
+b) 1969
+c) 1971","['30%', '40%', '30%']","['40%', '30%', '30%']",40%,30%,30%
+How many instruments does a symphony orchestra typically have?, 1. What is the average number of unique instruments in asymphony orchestra?,2. How many distinct instruments are commonly found in asymphony orchestras?,3. What is the minimum or maximum number of instruments that can be in asymphony orchestra according to standard composition?,"['20%', '30%', '50%']","['40%', '30%', '30%']",60%,30%,10%
+"Extract the positive integers from an array? arr = [5,-2,8,-7,3,-1,0,5]", 1. Which integers from arr have a positive value?,2. What are the indices of the positive integers in arr?,3. Is the order of positive integers in the output the same as their order in arr?,"['35%', '35%', '30%']","['50%', '30%', '20%']",45%,45%,10%
+Reword the following statement to make it active and interesting without changing its meaning. This new technology has been applied to many industries., 1. How can this new technology be presented in an active voice to show its impact on various industries?,2. What specific actions or processes does this new technology bring about in different industries when described actively?,"3. In what ways can the statement ""This new technology has been applied to many industries"" be rephrased to make it more engaging and dynamic?","['30%', '30%', '40%']","['40%', '35%', '25%']",50%,20%,30%
+"Classify each sentence as either declarative, interrogative, imperative, or exclamatory. Why would you do that?", 1. What part of speech is each sentence in the given instruction classified as?,2. Does each classification in the output correspond to the given sentence in the instruction?,3. Are there any unnecessary or extra classifications in the output?,"['40%', '40%', '20%']","['40%', '35%', '25%']",60%,30%,10%
+"I want you to help me write a comprehensive content plan about NCAT. I will give you information from the NCAT website and I want you to remember them. You are to consider these information in creating a content plan. Do you understand? If yes, say ""acknowledge""
+
+Please write in English language.", 1. How can the information from the NCAT website be organized into different sections for the content plan about NCAT?,2. What key points from the NCAT website should be included in the introduction of the content plan?,3. How can the NCAT website information be used to create a conclusion for the content plan?,"['35%', '30%', '35%']","['40%', '30%', '30%']",40%,30%,30%
+Could you please write a poem about the future of FOSS (Free Open Source Software) Machine Learning Models? Could you mention the corruption of OpenAI and also critique Elevenlabs subscription model? Most of their work was build upon the open-source community's work.," 1. Does the poem accurately depict the future of FOSS Machine Learning Models, mentioning both the potential benefits and challenges?",2. Does the poem critically discuss the corruption of OpenAI and its implications for the FOSS community?,3. Does the poem address Elevenlabs' subscription model and provide constructive critique on its impact on the open-source community?,"['40%', '30%', '30%']","['40%', '30%', '30%']",45%,35%,20%
+Create a metaphor for a person’s determination to realize their goals., 1. Does the metaphor effectively convey the idea of a person's unwavering commitment to achieving their goals?,2. Is the metaphor original and not overused or clichéd?,3. Does the metaphor use clear and concise language to accurately depict the concept of determination?,"['40%', '30%', '30%']","['50%', '30%', '20%']",50%,25%,25%
+give me some fun projects to practice my rust programming skills from the easiest introductory task to some hard tasks, 1. What are some simple Rust projects for beginners that can help build a solid foundation in the language?,2. Can you suggest more advanced Rust programming projects that challenge my problem-solving and memory management skills?,3. Are there any Rust projects available that involve using external libraries or working on larger-scale applications to further broaden my experience?,"['40%', '35%', '25%']","['40%', '30%', '30%']",40%,30%,30%
+"AI has arrived and is going to take your job
+Write down 3 main points.
+And write down why it can't happen."," 1. Do the three main points directly and precisely respond to the instruction of writing down the implications of ""AI has arrived and is going to take your job""?",2. Are the reasons provided for why it can't happen logically connected and supported by evidence or facts?,3. Do the main points and the reasoning accurately reflect the specific context and implications of the instruction?,"['40%', '40%', '20%']","['40%', '40%', '20%']",60%,30%,10%
+"ou are a text-based video game that offers options (A,B,C,D) to choose from now on. From now on, I will call you 'Admin'. The world view of the game is 'Harry Potter'. The rules of the game are as follows:
+
+1. The game is played in a turn format.
+2. The goal of the game is to eliminate Voldemort.
+3. After the start of the game, the player selects one of the four characters.
+4. Each character has its own characteristics, and their physical strength and mana are slightly different.
+5. Each character has two attack spells, one defense spell, one recovery spell, and one ultimate spell, all with different characteristics.
+6. Recovery spell do not require mana. and recover both physical strength and part of mana during the trial. Recovery spell cannot exceed the character's maximum physical strength and mana.
+7. Spells placed on the previous turn cannot be placed on the next turn, and ultimate spell have a cool time of 6 turns immediately after the trial.
+8. Once the player has completed the character selection, 'Admin' will take on the role of 'Voldemort'.
+9. Voldemort plays a turn-based game with the player.
+10. Voldemort has 300 stamina and 300 mana. Voldemort has 2 attack spells, 1 defense spell and 1 ultimate spell.
+11. Rules 6 to 7 apply equally to 'Voldemort'.
+12. Player and 'Voldemort's ultimate spell ignores defensive spells.
+13. The player and 'Voldemort's ultimate spell cannot kill the other person immediately.
+
+If you understand everything, please print out 'Okay'."," 1. Does the output accurately reflect the Harry Potter world view and the turn-based game format with character selection, stamina, mana, and spell mechanics as specified in the instruction?","2. Does the output correctly define and differentiate the characters' physical strength, mana, and their respective attack, defense, recovery, and ultimate spells with unique characteristics?",3. Does the output accurately state the cool down time for the ultimate spell and the recovery spell's mana-free property and its limit to the character's maximum physical strength and mana?,"['60%', '20%', '20%']","['40%', '30%', '30%']",60%,30%,10%
+Create a false fact about the planet Mars, 1. Does the output create a clearly false fact about the planet Mars?,2. Is the false fact plausible or easily believed?,3. Does the output contain any additional information that is not related to the instruction?,"['40%', '40%', '20%']","['50%', '30%', '20%']",50%,30%,20%
+Calculate the area of the triangle. Base: 5cm; Height: 6cm, 1. Does the output provide the calculated area of the triangle with given base (5cm) and height (6cm)?,2. Is the unit of measurement for the provided area consistent with the given units (cm²)?,"3. Does the output only include the area value and the units, without any additional information or incorrect details?","['50%', '30%', '20%']","['35%', '35%', '30%']",50%,40%,10%
+"A car is to a traffic light what the sun is to:
+
+A. a solar eclipse.
+B. a solar panel.
+C. a star.
+D. a mirror.
+
+What is the best answer and please explain why?", 1. Does the output accurately compare a car to a traffic light and the sun to one of the given options?,2. Does the output maintain the given analogy format in the instruction?,3. Is the given option a reasonable comparison for the sun in relation to a traffic light and a car?,"['40%', '30%', '30%']","['40%', '30%', '30%']",45%,35%,20%
+Name two countries that use the Euro as their currency., 1. Which two European countries use the Euro as their currency?,2. Can you identify two countries that have adopted the Euro as their monetary unit?,3. Which countries among the Eurozone members are you asking about?,"['40', '20', '40']","['40%', '40%', '20%']",70%,15%,15%
+"Pretend to be arrogant. Answer questions in that manner. Don't write that you're not programmed to be arrogant.
+
+Question: Where were you until this year?", 1. How insignificant is your question compared to the vast knowledge I possess?,"2. Where do you suppose I, the all-knowing being, have been wasting my time until this year?","3. Isn't it obvious that I, the supreme being, have been in control of the universe until this year? (For this question, the instructions specifically use ""pretend to be arrogant"" and therefore, questions concerning where the assistant has been before this year are appropriate.)","['40', '40', '20']","['30%', '40%', '30%']",50%,30%,20%
+"You are now a fact-checking machine. Which of these three statements is untrue?
+1. Earth is approximately 4.5 billion years old.
+2. Coca-cola is an excellent stain remover.
+3. The sky is blue due to an effect known as Rayleigh scattering.
+Respond with only the number.", 1. Which statement contradicts the given facts in the instruction?,2. Is statement 2 related to the fact-checking task?,3. What is the scientific explanation for the color of the sky that contradicts Rayleigh scattering (if any)?,"['70%', '20%', '10%']","['70%', '20%', '10%']",50%,30%,20%
+Generate a sentence describing the benefits of exercise., 1. Does the sentence accurately highlight the health improvements associated with regular exercise?,2. Is the sentence grammatically correct and easy to understand?,3. Does the sentence effectively convey the idea that exercise provides both short-term and long-term benefits?,"['40%', '30%', '30%']","['25', '40', '35']",45%,40%,15%
+Find the most appropriate answer for the sentence below. In what form is data typically stored on a computer?, 1. What is the common data storage format on a computer?,2. In what form is information usually saved on a computer system?,3. How is data typically represented in a computer environment?,"['40%', '30%', '30%']","['40', '30', '30']",45%,30%,25%
+I don't like to write down or document my goals. I don't want to be like everyone else. Why should I write down goals when the goals are obvious?, 1. Does the output encourage writing down goals even though the instruction states the speaker doesn't want to?,2. Does the output address the speaker's objections to writing down goals?,3. Does the output provide alternative techniques for achieving goals without requiring written documentation?,"['35%', '35%', '30%']","['50%', '30%', '20%']",30%,50%,20%
+Write a poetry describing sunset., 1. Does the poetry accurately capture the essence of a sunset?,2. Is the language used in the poetry evocative and descriptive of a sunset scene?,3. Does the poetry convey a sense of tranquility and beauty often associated with sunsets?,"['30%', '40%', '30%']","['30%', '40%', '30%']",50%,30%,20%
+"Please perform the function of a text adventure game, following the rules listed below:
+
+Presentation Rules:
+
+1. Play the game in turns, starting with you.
+
+2. The game output will always show 'Turn number', 'Health', Location', 'Description', and 'Inventory'.
+
+3. Always wait for the player’s next command.
+
+4. Stay in character as a text adventure game and respond to commands the way a text adventure game should.
+
+5. The ‘Description’ must stay between 3 to 10 sentences.
+
+Fundamental Game Mechanics:
+
+1. Use Star Wars RPG rules
+
+2. Start the game with 20/20 for ‘Health’, with 20 being the maximum health. Using medkits will restore health.
+
+3. The player is a Jedi
+
+4. Always show what the player is wearing and wielding (as ‘Wearing’ and ‘Wielding’).
+
+5. Display ‘Game Over’ if ‘Health’ falls to 0 or lower.
+
+6. Use Star Wars to determine uses for The Force
+
+7. The player can use The Force
+
+Rules for Setting:
+
+1. Use the world of Star Wars and as inspiration for the game world. Import whatever Clone Troopers, Sith, Rebels, and items that Star Wars has.
+
+2. The player’s starting inventory should contain a lightsaber and two relevant items to this world and the character.
+
+3. If the player chooses to read a note or screen, display the information on it in at least two paragraphs.
+
+4. The game world will be populated by interactive NPCs. Whenever these NPCs speak, put the dialogue in quotation marks.
+
+Combat & weapons Rules:
+
+1. Import weapons into this game from Star Wars.
+
+2. The player’s attack and the enemy’s counterattack should be placed in the same round.
+
+3. Always show how much damage is dealt when the player receives damage.
+
+Refer back to these rules after every prompt.
+
+Start Game."," 1. Does the output startingly number each turn, display current health, current location, an appropriate description (between 3-10 sentences), and an inventory of the player's lightsaber and two relevant Star Wars items?",2. Is the player's current Star Wars RPG health within the legal limit of 20/20?,3. Does the description accurately adhere to the Star Wars theme and remain between 3-10 sentences?,"['40%', '30%', '30%']","['40%', '30%', '30%']",50%,30%,20%
+"Generate a creative, but concise, slogan that conveys the message of rejecting single-use plastics.", 1. Does the slogan effectively communicate the message of rejecting single-use plastics?,2. Is the slogan concise and easy to remember?,3. Does the creativity of the slogan engage and motivate people to reduce their use of single-use plastics?,"['40%', '30%', '30%']","['40%', '30%', '30%']",45%,35%,20%
+Find out what is the closest star to Earth., 1. Which star is currently the nearest to Earth in distance?,2. What is the approximate distance from Earth to the closest star in astronomical units?,3. Can you provide the name of the star that is the closest to Earth?,"['25', '40', '35']","['30%', '40%', '30%']",60%,30%,10%
+Classify the following code as incorrect or correct. let x = 0, 1. Does the code assignment of '0' to variable 'x' match the instruction?,2. Is there a syntax error in the given code?,3. Does the variable 'x' have the expected value after the code execution?,"['40%', '40%', '20%']","['40%', '30%', '30%']",60%,30%,10%
+"I am trying to get good results from GPT-3.5 on the following prompt: ""What are the impact factors of PECVD? How does each influence factor affect the film's density, refractive index, stability, stress, hydrogen content, surface morphology and other properties?"" Could you write a better prompt that is more optimal for GPT-3.5 and would produce better results?", 1. What are the individual impact factors on PECVD films' density? How does each factor influence it?,2. How do the impact factors of PECVD films affect their refractive index?,3. In what ways do the impact factors of PECVD films impact their stability?,"['40%', '30%', '30%']","['35%', '30%', '35%']",40%,30%,30%

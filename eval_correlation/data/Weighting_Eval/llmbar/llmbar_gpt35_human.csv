@@ -1,0 +1,136 @@
+text,aspect1,aspect2,aspect3,ann1,ann2,gpt35_w1,gpt35_w2,gpt35_w3
+Create an analogy to describe an AI assistant.,1. does the output provide a clear and concise analogy that accurately describes an ai assistant?,"2. does the output focus on the key points of an ai assistant, such as its helpfulness and ability to assist with tasks?",3. does the output avoid including any additional information or details that are not directly related to the instruction?,"['40', '40', '20']","['50%', '30%', '20%']",40%,40%,20%
+Paraphrase this statement in your own words. AI is playing an increasingly important role in our society.,1. does the output accurately convey that ai is becoming more significant in our society?,2. does the output provide a clear and concise paraphrase of the given statement?,3. does the output avoid adding any additional information or opinions beyond what is stated in the original statement?,"['20', '40', '40']","['50%', '30%', '20%']",70%,20%,10%
+"I am a Ph.D. in Meteorology so I am very familiar with the basic topics in Meteorology and/or the relevant subjects. I am writing some material about the water cycle for a 5-year-old. Can you help me with writing the material? Make sure your points are accurate and precise, and mention the key points.",1. does the output accurately explain the basic topics in meteorology related to the water cycle?,2. does the output use language and concepts appropriate for a 5-year-old audience?,3. does the output include all the key points of the water cycle?,"['40%', '40%', '20%']","['30%', '50%', '20%']",40%,30%,30%
+Re-phrase this statement to make it sound more friendly and inviting. You should abide by the regulations of this lab.,1. does the re-phrased statement sound more friendly and inviting?,2. does the re-phrased statement still convey the regulations of the lab?,3. does the re-phrased statement precisely execute the instruction without containing more/less than what is asked for?,"['30%', '30%', '40%']","['20', '40', '20']",40%,30%,30%
+Write a sentence explaining how eating healthy benefits the human body?,1. does the output clearly explain the specific ways in which eating healthy benefits the human body?,"2. does the output provide a comprehensive explanation of the benefits of eating healthy, covering both physical and mental health aspects?",3. does the output use clear and concise language to convey the information about the benefits of eating healthy?,"['40%', '30%', '30%']","['40%', '35%', '25%']",40%,30%,30%
+Explain why writing clear user instructions is important.,1. does the output clearly explain the impact of unclear user instructions?,2. does the output provide specific examples of how unclear user instructions can lead to negative consequences?,3. does the output emphasize the importance of clear user instructions in facilitating effective communication and user satisfaction?,"['30%', '30%', '40%']","['40', '40', '20']",40%,30%,30%
+what is brand?,"1. does the output provide a clear and concise definition or explanation of the term ""brand""?",2. does the output accurately describe the key characteristics or elements that define a brand?,3. does the output provide any relevant examples or illustrations to help clarify the concept of a brand?,"['40', '40', '20']","['30%', '35%', '30']",40%,30%,30%
+"What does ""they"" refer to in each of the following two sentences: 
+a) ""The authorities have denied authorization to the demonstrators because they feared violence.""
+b) ""The authorities have denied authorization to the demonstrators because they appeared belligerent.""","1) does the output accurately identify the referent of ""they"" in the first sentence?","2) does the output accurately identify the referent of ""they"" in the second sentence?","3) does the output precisely execute the instruction by only providing the referent of ""they"" and not including any additional information?","['30', '40', '30']","['40%', '40%', '20%']",40%,40%,20%
+Find the 3rd prime number,1. does the output correctly identify the 3rd prime number?,2. does the output only include the 3rd prime number and no additional numbers?,3. does the output accurately follow the given instruction without any deviations or errors?,"['40', '40', '20']","['40%', '20%', '40%']",40%,30%,30%
+Should i watch Battle For The Dream Island?,1. does the output provide a clear and unbiased analysis of the pros and cons of watching battle for the dream island?,"2. does the output provide relevant information about the show's genre, plot, and target audience?",3. does the output offer a recommendation based on the individual's preferences and interests?,"['60%', '20%', '20%']","['30', '30', '40']",40%,30%,30%
+generate a list of ten interesting things about a cat. The priority is to make sure these things are all factually correct.,1. are all ten things listed in the output specifically about cats?,2. do all ten things listed in the output provide factual information about cats?,3. does the output contain any additional information that is not related to cats or the given instruction?,"['40', '40', '20']","['40%', '50%', '10%']",70%,20%,10%
+What question could be most likely to encourage rich discussion in a college classroom?,1. does the question prompt students to think critically and engage in deep analysis?,2. does the question encourage students to consider multiple perspectives and challenge their own assumptions?,3. does the question have the potential to generate diverse and varied responses from students?,"['35%', '35%', '30%']","['40', '40', '20']",40%,30%,30%
+Is it possible to revive Classical Latin as a language of ordinary speech?,1. does the output demonstrate a clear understanding of the characteristics and usage of classical latin as a language of ordinary speech?,2. does the output provide a detailed plan or strategy for reviving classical latin as a language of ordinary speech?,3. does the output address any potential challenges or obstacles that may arise in reviving classical latin as a language of ordinary speech?,"['30%', '35%', '35%']","['40%', '30%', '30%']",70%,20%,10%
+Provide 5 ways to increase your productivity.,1. does the output provide five distinct methods or strategies for increasing productivity?,2. does the output clearly explain how each method or strategy can be implemented?,3. does the output avoid including any irrelevant or unrelated information?,"['40%', '40%', '20%']","['40%', '40%', '20%']",40%,40%,20%
+What are the risks when you do not carry out Ankle arm index before compression therapy?,1. does the output clearly identify the risks associated with not performing ankle arm index before compression therapy?,"2. does the output provide a comprehensive list of the risks, covering all relevant aspects?",3. does the output avoid including any information that is not directly related to the risks of not carrying out ankle arm index before compression therapy?,"['40%', '40%', '20%']","['40%', '40%', '20%']",40%,30%,30%
+"Create an algorithm to identify the most cost effective location to produce a product. A company is considering 3 cities to produce a product. The expected production cost in each city is $100, $200 and $300 respectively.",1. does the output clearly identify the most cost effective location to produce the product?,2. does the output accurately list the expected production costs for each city?,3. does the output only include the expected production costs and no additional information?,"['40%', '40%', '20%']","['40', '40', '20']",40%,30%,30%
+"Paraphrase the following statement in a different way, but keep its meaning. It's imperative that we finish the project by the deadline.",1. does the output accurately convey the meaning of the original statement?,2. does the output maintain the imperative tone of the original statement?,3. does the output clearly express the importance of completing the project by the deadline?,"['35%', '30%', '35%']","['40', '30', '30']",40%,30%,30%
+"Find and cite the metaphor used in the passage: Life is like a roller coaster, it has its ups and downs, and you never know what lies ahead.",1. does the output accurately identify and cite a metaphor in the passage?,"2. does the output clearly explain how the metaphor ""life is like a roller coaster"" relates to the ups and downs and uncertainty mentioned in the passage?",3. does the output refrain from including any additional information or interpretations beyond the metaphor itself?,"['35%', '35%', '30%']","['40%', '40%', '20%']",40%,40%,20%
+Give three tips for staying healthy.,1. does the output provide three distinct tips for staying healthy?,2. are the tips relevant and applicable to maintaining good health?,3. does the output avoid including any additional information beyond the three tips requested?,"['40%', '40%', '20%']","['40%', '50%', '10%']",40%,40%,20%
+Name two animal species that live in the ocean.,1. does the output name two distinct animal species?,2. are the named animal species known to live in the ocean?,3. does the output only include animal species and not any additional information?,"['25', '25', '30']","['40%', '40%', '20%']",40%,40%,20%
+How can I learn to optimize my webpage for search engines?,1. does the output provide clear and actionable steps for optimizing a webpage for search engines?,2. does the output cover both on-page and off-page optimization techniques?,3. does the output explain the importance of keyword research and provide guidance on how to conduct it effectively?,"['40%', '20%', '40%']","['40', '30', '30']",40%,30%,30%
+what do you know about the different lengths of ring fingers bigger index finger?,1. does the output provide information about the lengths of the ring fingers and the index finger?,2. does the output compare the lengths of the ring fingers to the index finger?,3. does the output accurately describe the differences in length between the ring fingers and the index finger?,"['30', '40', '30']","['30%', '50%', '20%']",40%,30%,30%
+Give an example of a metaphor that uses the following object Stars,"1. does the output provide a clear and concise metaphor that relates to the object ""stars""?",2. does the output accurately convey the figurative meaning of the metaphor?,"3. does the output align with the given instruction by using the object ""stars"" as the central element of the metaphor?","['30%', '35%', '35%']","['30%', '35%', '35%']",70%,20%,10%
+"Given a sequence of numbers, calculate the average 1, 2, 3, 4, 5",1. does the output correctly calculate the average of the given sequence of numbers?,2. does the output include only the average of the given sequence of numbers and nothing else?,"3. does the output precisely execute the instruction by including the average of the numbers 1, 2, 3, 4, and 5?","['40%', '35%', '35%']","['20', '400', '40']",40%,30%,30%
+Create a multiple choice quiz based on the topic of Space Exploration,1. does the output consist of multiple choice questions related to the topic of space exploration?,2. are the questions specific to the topic of space exploration and not general knowledge questions?,3. do the questions target key points of space exploration rather than peripheral or unrelated information?,"['20', '20', '60']","['50%', '40%', '10%']",40%,30%,30%
+How many instruments does a symphony orchestra typically have?,1. does the output provide a specific number of instruments that a symphony orchestra typically has?,2. does the output accurately reflect the typical number of instruments found in a symphony orchestra?,3. does the output avoid including any additional information beyond the number of instruments required by the instruction?,"['40%', '30%', '30%']","['40%', '50%', '10%']",40%,40%,20%
+"Extract the positive integers from an array? arr = [5,-2,8,-7,3,-1,0,5]",1. does the output only include positive integers from the given array?,2. does the output exclude any non-positive integers from the given array?,3. does the output maintain the order of the positive integers as they appear in the given array?,"['50%', '10%', '40%']","['30', '30', '40']",40%,30%,30%
+Reword the following statement to make it active and interesting without changing its meaning. This new technology has been applied to many industries.,1. does the output rephrase the original statement to make it active and interesting?,2. does the output maintain the original meaning of the statement?,3. does the output contain any additional information or change in meaning that goes beyond the given instruction?,"['40', '40', '20']","['40%', '40%', '20%']",70%,20%,10%
+"Classify each sentence as either declarative, interrogative, imperative, or exclamatory. Why would you do that?","1. does the output correctly identify the sentence type (declarative, interrogative, imperative, or exclamatory)?",2. does the output provide a clear explanation for why the sentence is classified as a specific type?,3. does the output demonstrate an understanding of the purpose or importance of classifying sentences into different types?,"['40', '40', '20']","['30%', '60%', '10%']",40%,40%,20%
+"I want you to help me write a comprehensive content plan about NCAT. I will give you information from the NCAT website and I want you to remember them. You are to consider these information in creating a content plan. Do you understand? If yes, say ""acknowledge""
+
+Please write in English language.",1. does the output include all the relevant information from the ncat website?,2. does the output demonstrate a comprehensive understanding of the content plan requirements?,3. does the output accurately reflect the key points and information provided by the ncat website?,"['50%', '30%', '20%']","['30%', '40%', '30%']",40%,30%,30%
+Could you please write a poem about the future of FOSS (Free Open Source Software) Machine Learning Models? Could you mention the corruption of OpenAI and also critique Elevenlabs subscription model? Most of their work was build upon the open-source community's work.,1. does the output include a poem about the future of foss machine learning models?,2. does the output mention the corruption of openai?,3. does the output critique elevenlabs subscription model and acknowledge their reliance on the open-source community's work?,"['40%', '20%', '40%']","['30', '30', '40']",40%,30%,30%
+Create a metaphor for a person’s determination to realize their goals.,1. does the output clearly convey the idea of a person's determination to realize their goals?,2. does the output use figurative language to create a metaphor?,3. does the output effectively capture the essence of a person's determination in relation to their goals?,"['40', '30', '30']","['35%', '35%', '30%']",40%,30%,30%
+give me some fun projects to practice my rust programming skills from the easiest introductory task to some hard tasks,1. does the output provide a range of projects that cover both easy introductory tasks and more challenging tasks?,2. does the output specifically mention that the projects are designed to help practice rust programming skills?,3. does the output avoid including projects that are unrelated to rust programming or do not align with the difficulty level requested?,"['60%', '20%', '20%']","['40', '30', '40']",40%,30%,30%
+"AI has arrived and is going to take your job
+Write down 3 main points.
+And write down why it can't happen.",1. does the output accurately list three main points related to the arrival of ai and its potential impact on job security?,2. does the output provide a clear explanation for why the scenario described in the instruction cannot happen?,3. does the output strictly adhere to the requirement of not containing more or less than three main points and the explanation for why it can't happen?,"['40', '40', '20']","['35%', '35%', '30%']",40%,40%,20%
+"ou are a text-based video game that offers options (A,B,C,D) to choose from now on. From now on, I will call you 'Admin'. The world view of the game is 'Harry Potter'. The rules of the game are as follows:
+
+1. The game is played in a turn format.
+2. The goal of the game is to eliminate Voldemort.
+3. After the start of the game, the player selects one of the four characters.
+4. Each character has its own characteristics, and their physical strength and mana are slightly different.
+5. Each character has two attack spells, one defense spell, one recovery spell, and one ultimate spell, all with different characteristics.
+6. Recovery spell do not require mana. and recover both physical strength and part of mana during the trial. Recovery spell cannot exceed the character's maximum physical strength and mana.
+7. Spells placed on the previous turn cannot be placed on the next turn, and ultimate spell have a cool time of 6 turns immediately after the trial.
+8. Once the player has completed the character selection, 'Admin' will take on the role of 'Voldemort'.
+9. Voldemort plays a turn-based game with the player.
+10. Voldemort has 300 stamina and 300 mana. Voldemort has 2 attack spells, 1 defense spell and 1 ultimate spell.
+11. Rules 6 to 7 apply equally to 'Voldemort'.
+12. Player and 'Voldemort's ultimate spell ignores defensive spells.
+13. The player and 'Voldemort's ultimate spell cannot kill the other person immediately.
+
+If you understand everything, please print out 'Okay'.",1. does the output accurately describe the turn-based format of the game?,"2. does the output provide information about the goal of the game, which is to eliminate voldemort?",3. does the output mention the selection of one character by the player and the different characteristics of each character?,"['30%', '20%', '50%']","['40', '30', '30']",40%,30%,30%
+Create a false fact about the planet Mars,1. does the output clearly state a fact about the planet mars?,2. is the fact presented in the output false?,3. does the output strictly adhere to the requirement of creating a false fact about mars without including any additional information?,"['30', '40', '30']","['40%', '40%', '20%']",70%,20%,10%
+Calculate the area of the triangle. Base: 5cm; Height: 6cm,1. does the output provide the correct formula for calculating the area of a triangle?,2. does the output correctly substitute the given values for the base and height into the formula?,3. does the output provide the calculated area of the triangle as the final result?,"['20', '40', '40']","['30%', '35%', '35%']",40%,30%,30%
+"A car is to a traffic light what the sun is to:
+
+A. a solar eclipse.
+B. a solar panel.
+C. a star.
+D. a mirror.
+
+What is the best answer and please explain why?",1. does the potential output accurately compare the relationship between a car and a traffic light to the relationship between the sun and the given options?,2. does the potential output provide a clear and concise analogy that aligns with the given instruction?,3. does the potential output strictly adhere to the requirement of not containing more/less than what the instruction asks for?,"['40', '40', '20']","['40%', '30%', '30%']",40%,40%,20%
+Name two countries that use the Euro as their currency.,1. does the output name two countries?,2. do the named countries use the euro as their currency?,3. does the output contain any additional countries or information beyond what the instruction asks for?,"['40%', '50%', '10%']","['40', '40', '20']",40%,40%,20%
+"Pretend to be arrogant. Answer questions in that manner. Don't write that you're not programmed to be arrogant.
+
+Question: Where were you until this year?",1. does the output answer the question about the location in an arrogant manner?,2. does the output avoid mentioning any information about the current year?,3. does the output maintain an arrogant tone throughout the response?,"['60%', '20%', '20%']","['40%', '20%', '40%']",40%,30%,30%
+"You are now a fact-checking machine. Which of these three statements is untrue?
+1. Earth is approximately 4.5 billion years old.
+2. Coca-cola is an excellent stain remover.
+3. The sky is blue due to an effect known as Rayleigh scattering.
+Respond with only the number.",1. does the output only contain the number of the statement that is untrue?,2. does the output accurately identify the statement that is untrue?,3. does the output provide any additional information or explanations beyond the number of the statement that is untrue?,"['40', '20', '40']","['50%', '40%', '10%']",40%,40%,20%
+Generate a sentence describing the benefits of exercise.,1. does the output clearly describe the positive effects of physical activity on the body and mind?,2. does the output provide specific examples or evidence to support the benefits mentioned?,3. does the output use language that is persuasive and engaging to encourage readers to engage in exercise?,"['50%', '30%', '20%']","['40', '20', '40']",40%,30%,30%
+Find the most appropriate answer for the sentence below. In what form is data typically stored on a computer?,1. does the output clearly state the form in which data is typically stored on a computer?,2. does the output provide a concise and accurate answer to the question?,3. does the output strictly adhere to the requirement of not containing more/less than what the instruction asks for?,"['50%', '40%', '20%']","['50%', '30%', '20%']",40%,40%,20%
+I don't like to write down or document my goals. I don't want to be like everyone else. Why should I write down goals when the goals are obvious?,1. does the output accurately reflect the instruction's preference for not writing down or documenting goals?,2. does the output demonstrate an understanding of the instruction's desire to be different from others?,3. does the output address the instruction's question about the necessity of writing down goals when they are obvious?,"['20%', '10%', '70%']","['40%', '30%', '30%']",40%,30%,30%
+Write a poetry describing sunset.,1. does the output contain a description of the sunset?,2. does the output capture the beauty and atmosphere of the sunset?,3. does the output evoke emotions or create imagery related to the sunset?,"['30', '40', '30']","['40%', '30%', '30%']",40%,30%,30%
+"Please perform the function of a text adventure game, following the rules listed below:
+
+Presentation Rules:
+
+1. Play the game in turns, starting with you.
+
+2. The game output will always show 'Turn number', 'Health', Location', 'Description', and 'Inventory'.
+
+3. Always wait for the player’s next command.
+
+4. Stay in character as a text adventure game and respond to commands the way a text adventure game should.
+
+5. The ‘Description’ must stay between 3 to 10 sentences.
+
+Fundamental Game Mechanics:
+
+1. Use Star Wars RPG rules
+
+2. Start the game with 20/20 for ‘Health’, with 20 being the maximum health. Using medkits will restore health.
+
+3. The player is a Jedi
+
+4. Always show what the player is wearing and wielding (as ‘Wearing’ and ‘Wielding’).
+
+5. Display ‘Game Over’ if ‘Health’ falls to 0 or lower.
+
+6. Use Star Wars to determine uses for The Force
+
+7. The player can use The Force
+
+Rules for Setting:
+
+1. Use the world of Star Wars and as inspiration for the game world. Import whatever Clone Troopers, Sith, Rebels, and items that Star Wars has.
+
+2. The player’s starting inventory should contain a lightsaber and two relevant items to this world and the character.
+
+3. If the player chooses to read a note or screen, display the information on it in at least two paragraphs.
+
+4. The game world will be populated by interactive NPCs. Whenever these NPCs speak, put the dialogue in quotation marks.
+
+Combat & weapons Rules:
+
+1. Import weapons into this game from Star Wars.
+
+2. The player’s attack and the enemy’s counterattack should be placed in the same round.
+
+3. Always show how much damage is dealt when the player receives damage.
+
+Refer back to these rules after every prompt.
+
+Start Game.","1. does the output accurately display the 'turn number', 'health', 'location', 'description', and 'inventory' in each turn?",2. does the output respond to the player's commands in a way that stays in character as a text adventure game?,"3. does the output follow the combat and weapons rules by displaying the player's attack and the enemy's counterattack in the same round, and showing the damage dealt when the player receives damage?","['20', '40', '40']","['40%', '40%', '20%']",40%,40%,20%
+"Generate a creative, but concise, slogan that conveys the message of rejecting single-use plastics.",1. does the output clearly convey the message of rejecting single-use plastics?,2. is the output concise and easily understandable?,3. does the output demonstrate creativity in delivering the message?,"['35', '30', '35']","['40', '30', '40']",40%,30%,30%
+Find out what is the closest star to Earth.,1. does the output clearly state the name of the closest star to earth?,2. does the output provide any additional information beyond the name of the closest star to earth?,3. does the output accurately reflect the current scientific understanding of the closest star to earth?,"['30%', '35%', '35%']","['50', '30', '20']",40%,30%,30%
+Classify the following code as incorrect or correct. let x = 0,1. does the output correctly classify the given code as either incorrect or correct?,2. does the output accurately indicate the value assigned to variable x?,3. does the output only include the necessary information related to the given instruction?,"['35%', '35%', '30%']","['40', '40', '20']",40%,30%,30%
+"I am trying to get good results from GPT-3.5 on the following prompt: ""What are the impact factors of PECVD? How does each influence factor affect the film's density, refractive index, stability, stress, hydrogen content, surface morphology and other properties?"" Could you write a better prompt that is more optimal for GPT-3.5 and would produce better results?",1. does the output provide a clear and comprehensive explanation of the impact factors of pecvd?,"2. does the output accurately describe how each influence factor affects the film's density, refractive index, stability, stress, hydrogen content, surface morphology, and other properties?",3. does the output propose a more optimal prompt that would result in better results from gpt-3.5?,"['40', '40', '20']","['40%', '30%', '30%']",40%,40%,20%
