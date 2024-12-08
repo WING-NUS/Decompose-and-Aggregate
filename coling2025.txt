@@ -1,0 +1,67 @@
+Review1:87
+Thank you for your thoughtful review! We are glad to hear that you enjoy reading our paper. 
+
+We will take your advice to add kappa to make the metrics more informative. 
+
+You are right that a statistical analysis can tell us more about the significance in different models’ ability in generating aspects. The difference in AMT workers’ average scores are relatively small so the more important insight here is that LLMs can generate high-quality aspects(>4.5), which validates our approach to use model-generated aspects.
+
+Review2:255
+Thank you for your valuable feedback. Here are our responses:
+
+1. Extensivity
+GPT-4 models are representative of front runners (Zheng et al., 2023), while Llama and Mistral were leading open-source models. We also cover the most representative meta-evaluation datasets with a comparable extensivity to concurrent work accepted in ICLR (Zeng et al., 2024). 
+
+2. Agreement
+We will make it clearer that Table-2 reports the percentage agreement with the gold human preference.
+
+3. Energy consumption
+It is more of a tradeoff than a weakness. Previous work like Prometheus (Kim et al., 2023), Google’s Flame, Salesforce’s SFR-Judge finetune LLMs for evaluation purpose, incurring great training costs. The reasonable cost increase cannot offset these/our works’ value.
+
+4. Biases in related work
+We didn’t address the bias explicitly, but the decomposition approach we proposed in this work can help reveal the possible hidden bias, which can be our future work.
+
+5. Open-source model selection
+Our aim is to show DnA works on various models instead of merely evaluating sota models (e.g., GPT4). We will re-state it in Section4.2 to make this clearer.
+
+6. Cost analysis
+We didn’t claim the total cost of open-source models is zero. Indeed, Table-6 summarized API inference cost, while other computational costs are reported in Section E.2 (correlated with energy consumption). We will add the number of inferences as a proxy for compute costs.
+
+7. Weighted-sum Calculation
+Actually we used the external calculation module to get the aggregate scores rather than using LLM prompts (L299).
+
+
+Reviewer3: 156
+Thank you for your thoughtful review! We are glad that you regard our scope and technical rigor as exceptional.
+
+1. Pairwise format
+Yes we will make it clearer that the data is in pairwise format.
+
+2. Agreement between human
+Good point! We didn’t find such data for benchmarks in our experiments but such statistics would offer critical comparisons.
+
+3. Positioning of DnA
+It is more of a way to bring out “optimal evaluation performance” in LLMs
+
+4. LLaMa2-13B and Mistral-7B results
+They happen to be the same. One possible reason is data leakage (Appendix C). Most datasets were released after the models but FairEval was released before these two models.
+
+5. Anthropomorphizing LLMs, ascribing specific rationale to LLMs' scoring
+Thanks for the suggestions! We will try rewording these parts.
+
+6. Citations
+Part of the reason is LLM-as-judges is an emerging field from 2023. We will check if there is earlier work which may lay the foundation.
+
+
+
+
+
+Response to chairs: 200
+We appreciate reviewers’ feedback and are pleased that reviewers (R1&R3) uniformly acknowledge our work’s soundness and impacts.
+Here we'd like to raise some concerns regarding R2's comments which reflect misunderstandings and lead to unreasonable scores:
+(1) R2 unfairly highlighted tradeoffs (higher costs) as "weaknesses". Previous work like Prometheus (Kim et al., 2023) finetunes LLMs for evaluation purposes, incurring great compute cost. This isn’t a fair reason to undermine both work's value.
+(2) Calculation: R2 criticized using LLMs to perform weighted sums as costly but actually we used an external computing module (Line-299), achieving higher performance and lower costs than using LLMs.
+(3) Cost: Basically Table-6 summarized API inference costs from 4 models, whereas R2 thought those are total costs, then concluded that our cost analysis is flawed.
+Moreover, R2 is unfamiliar with the LLM-as-a-judge field, undervaluing our contribution:
+(4) Our motivation to enhance both performance and interpretability of LLM-as-a-judge is a critical challenge but not acknowledged by R2.
+(5) Extensivity: We performed experiments on four meta-evaluation datasets across diverse domains on both open/close-sourced models (same extensivity as previous ICLR work) but R2 lists it as weakness.
+We would appreciate it if you could consider these points. Thank you!
