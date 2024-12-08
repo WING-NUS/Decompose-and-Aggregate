@@ -1,0 +1,81 @@
+MetaReview
+Comments: The paper presents a novel framework for using large language models (LLMs) for evaluating the output of text generation systems. The approach breaks down the evaluation into two stages where the LLMs are asked to choose evaluation criteria and then numerically evaluate each criterion. The paper uses 4 LLMs and 4 text generation datasets. The paper is well written, and addresses an important task. The experimental part is quite extensive. Several concerns were raised in the reviews. The key issue is the underwhelming performance of the approach and the low agreement with the human preference labels. A question regarding energy consumption was raised but not satisfactorily addressed in the author response. The discussion stage emphasized these issues with the paper. Overall, the paper could serve as a useful reference for researchers working on LLM-as-a-judge, but addressing these concerns would strengthen the paper.
+
+Review #1
+Paper Summary*
+The paper considers using LLMs as a judge for evaluating generated text. It proposes a new approach that breaks the evaluation process into two stages to improve interpretability.
+Summary of Strengths*
+I have really enjoyed reading this paper. It's very clearly written, the methodology is sound and easy to follow and the results are interesting.
+The literature review is very comprehensive and clear and by itself would be of value for COLING audience
+
+The approach where LLM is generating analytical scores across dimensions ("aspects") which are then aggregated into weighted average is interesting. I also enjoyed learning about the ablation experiment.
+
+The evaluation is done on several datasets and across multiple LLMs.
+
+Summary of Weaknesses*
+The paper uses raw agreement as the performance metrics. Including additional agreement metrics that correct for chance agreement (e.g., kappa) would be great and make it easier to compare the results across the datasets.
+
+I am slightly concerned by the high ratings assigned by the AMT workers to the model-generated aspects (4.5 on 5 point scale). While this might be a completely legitimate result, it may also be the annotators generally being too lenient. I am also not sure how much we can read into the differences in ratings between different models without additional statistical analysis.
+
+Comments, Suggestions and Typos*
+231 "The framework bases.." -> "The framework is based"
+Soundness (1-5):	4
+Overall Assessment (1-5):	4
+
+Review #2
+Paper Summary*
+The authors present a strategy to use conversational LLMs for the evaluation of textual responses in a specific context. The task seems pretty simple as it only address pairwise comparison (takes 2 textual response and only says which one is considered "better" in the specific context/task).
+The strategy consists in asking the LLM to choose a set of evaluation criteria, then ask it to numerically evaluate each criterion on the selected criteria before performing a weighted sum where weights are also given by the LLMs. This strategy seems rather straightforward and seems a good choice to mimick usual human assessment (as in multi-criteria evaluation practices in pedagogy).
+
+4 LLMs (2 ChatGPT instances) and 2 open-source LLMs are used for the evaluation of the proposed strategy that increases performance when compared to direct prompting or CoT prompting.
+
+Summary of Strengths*
+The proposed strategy improves on both direct prompting and ChainOfThoughts prompting that are mentioned in the SOTA.
+Summary of Weaknesses*
+I am not at all a specialist of LLM-as-judges work, but I have doubt concerning the extensivity of SOTA in LLM-as-a-judge research.
+The agreement measure used in the result table is not given which one is it? This is really important as I was first puzzled by the very low values if they were to be a simple percentage of correct classification as implied by line 408-409.
+
+The workflow is at least 6 times energy consuming than a single prompt setup.
+
+Author insists on the interpretability of evaluations, and indeed the workflow generated independent scoring on several aspects that where determined by the LLM itself, so each aspect's score brings an "explanation", but there is no study on the human correlation of each score-on-a-specific-aspect compared to human judgment and even significant differences on this may be erased by the weighted average performed afterwards
+
+The proposed workflow seems to be straightforward and the paper only presents it as a no-human-involved solution to LLM-as-a-judge for pairwise comparison. This makes the paper yet another GPTology/GPTidolatry work but fails in proposing a convincing research as axpected in a conference like COLING, would certainly be more fitted in a specialized workshop.
+
+Evaluating the ability of LLMs to perform the weighting sum of scores instead of a simple arithmetic calculus is useless and a waste of energy.
+
+The SOTA mentioned a set of bias in LLM-as-a-judge evaluations (from Zheng paper) but nothing is mentioned on these biaises in the proposed workflow.
+
+The conclusions of the experiments conducted on 4 conversational LLMs are useless (especially as the open-source models are an order of magnitude smaller than the ChatGPT models.
+
+The cost analysis is flawed as it only evaluate the cost of access to ChatGPT API (which is not correlated to the real cost of performing the computation on a maintained infrastructure). Giving a cost of 0 to open-source LLMs is flawed as the computation and infrastructure on which these are run is to be paid. An energy cost analysis would be far more adapted.
+
+Soundness (1-5):	2
+Overall Assessment (1-5):	2
+
+Review #3
+Paper Summary*
+The article presents DnA-Eval, a novel framework for using LLMs for evaluators on machine-generated texts. Its innovation is introduction of rubric-based scoring and weighting through "decomposition and aggregation" stages. The authors benchmark DnA-Eval's effectiveness by putting four LLMs (GPT-3.5, GPT-4, Llama2-13B and Mistral-7B-Instruct-v0.2) up against four existing meta-evaluation datasets (FairEval, MT-Bench, LLMBar, Instrusum) to conduct four scoring rounds: two zero-shot baselines of direct scoring method (LLMs are prompted to supply overall scoring directly) and Chain-of-Thought method (CoT; LLMs are asked to provide an explanation and then the overall score); DnA-Eval in which aggregation of individual rubric aspects and their scores was off-loaded to an external calculator/aggregator, and finally an ablation method in which LLMs were tasked to provide their own aggregation score following the decomposition stage. When the scores are compared against human judgments of the meta-evaluation datasets, the DnA-Eval method employing LLM-external aggregation reported overall highest agreement levels, surpassing the baselines of direct scoring and CoT. This suggests their DnA-Eval framework achieves better evaluation performance while bringing an additional benefit of greater interpretability.
+The authors follow up with some post-experimental analyses: (1) human annotators are recruited via Mechanical Turk to rate relevance, clarity and comprehensiveness of model-generated rubric aspects which showed above-average performance for all 4 LLM models, (2) LLMs' weighting decisions were scrutinized against human weightings, which found LLMs are in general capable of adjusting weights in task-appropriate manners (e.g., 'accuracy' weighted higher for math tasks while higher 'creativity' weights for writing) but divergence exists against human weightings, (3) a qualitative review was conducted on cases where DnA-Eval outperformed direct scoring to ascertain the source of improvement.
+
+Summary of Strengths*
+The study described in the paper is exceptional in its scope and technical rigor. Likewise, the written account in the form of the paper does an outstanding job of presenting the work comprehensively and with precision. The authors achieved the impressive feat of presenting a work with remarkable complexity and breadth without sparing relevant details in a limited space of a conference paper. There's judicious attention to specifics and meticulous execution on display, again in terms of the study itself as well as its presentation.
+The contributions that the study makes in the emerging area of meta-evaluation of MML evaluators are clear and significant. Findings from the benchmarking experiments (Section 4, Table 2) demonstrate that their EnA-Eval suite was able to successfully illicit LLM evaluation outcomes that more closely match human judgments; the "decomposed", "score-by-aspect" nature of the evaluation schema allows interpretability over which aspects (accuracy, helpfulness, relevance, etc.) are rated higher/lower.
+
+Summary of Weaknesses*
+I didn't find any major weaknesses in this work. What I note below may be considered relatively minor, not affecting the overall strengths and integrity of this work.
+A question on benchmarking results in Table 2. Is it correct to assume the evals were conducted in a pair-wise fashion, ranking two responses each time? This was not immediately clear to me, having just read the MT-Bench dataset encompassing 6-model-generated responses. Perhaps it bears repeating in Section 4 as a reminder. Also, with this pairwise comparison setup, chance-agreement probability would be high at 50% (if no ties are considered). Many of the four LLM evaluators' agreements with human preference labels are seen dipping below this, at 40, 30, and even 20%, and most of the better-performers are at the 50+% range. This strikes me as overall poor showing by the LLMs, which negates the whole premise of the feasibility of using LLMs as evaluators at all. The authors' work is about improving meta-evaluation systems and not about LLM evaluators themselves, but again, this point is worth drawing attention to, since accurately assessing & conveying the LLMs evaluation capability is a key goal of the meta-evaluator systems.
+
+On that note... what would be expected agreement rates among two human raters, if such stats are known? That would also be a critical data point. Perhaps most machine-generated responses are not highly distinct and they are difficult for humans to rate consistently.
+
+One last point I want to make is a big-picture one. Is the goal of LLM meta-evaluator methods like DnA-Eval, direct scoring, and CoT accurately assessing particular LLM's latent competency as an evaluator of response quality, or is it more about engineering a prompting setup to bring out an "optimal performance" in LLMs as an evaluator, i.e., rating in the way that matches human judgment? If it's the latter, DnA-Eval certainly comes out ahead, but if it's the former, shouldn't ALL evaluation methods be considered equally valid? Some LLMs fare better with direct scoring, and some may do better with DnA-Eval, but that does not change the fact that each judgment LLMs render is a reflection of their capability, no matter the setup. Therefore, I feel the positioning of the whole meta-evaluator enterprise should be framed in terms of practicality ("if you plan to employ an LLM to score some written responses, DnA-Eval produces the best outcome") rather than scientific evaluation of LLMs.
+
+Comments, Suggestions and Typos*
+Table 2: For FairEval dataset, LLaMa2-13B and Mistral-7B report same agreement figures between Direct Scoring and DnA-Eval methods. Accidental copy-pastes?
+A side note: The authors lean into the pedagogical value of rubrics cited in education research to lend additional credibility to their approach, a point that they bring up several times. While borrowing of this vaunted pedagogical instrument into LLM evaluation research holds a certain appeal, especially given its apparent success, I would tread lightly. The implication is that an LLMs' ultimate ratings in the form of DnA-Eval are somehow guided by/based on/motivated by the rubrics, but at the same time the LLMs have been shown unable to carry themselves across the final step of aggregation. And, of course, there is the discomfort in anthropomorphizing LLMs' evaluative process by invoking a parallel to how human teachers approach evaluation.
+
+Appedix G. Qualitative Examples. Authors note: "For the first question on the role playing of Sheldon, although Response 2 is rated higher for aspects like level of details, the LLM (GPT-4) is able to pick the correct response (Response 1) which performs better on more important aspect (relevance aspect) because it sticks to the constraint (don't start with phrases of "As Sheldon")." I first read this as GPT-4's assigning a higher relevance score to R1 was due to its recognition of R1 sticking to the constraint. But that's not the case here -- there is no ground for ascribing specific rationale to LLMs' scoring judgment. Perhaps it can be reworded to avoid potential misimpression.
+
+Lastly, about references. Of 37 papers cited, 28 are arXiv pre-prints vs. 9 actual peer-reviewed publications. Of the latter 9, 3 are about pedagogy of rubrics, 4 are NLP articles that are 10-20 years old, and only 2 are recent peer-reviewed publications. There's an anomaly here, and I'm not sure what to make of it. LLMs as a meta evaluators is a hot-off-the-press sort of field, and the authors noted that they chose more recent (2023 or later) benchmark systems for comparison in order to sidestep potential data leakage/contamination problems, so that could have contributed to this unusual arrangement. But still, 28 vs. 9... Surely there is more recent evaluation research worth citing since ROUGE (2004) or BLEU (2002).
+
+Soundness (1-5):	4
+Overall Assessment (1-5):	3
